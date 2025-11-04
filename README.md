@@ -1,7 +1,7 @@
-# Eldendle API
+# Elden Rindle API
 
-**Eldendle API — Servidor (backend)**  
-Repositório do servidor backend do projeto *Eldendle* — um jogo no estilo *Wordle* focado no universo de **Elden Ring**.  
+**Elden Rindle API — Servidor (backend)**  
+Repositório do servidor backend do projeto *Elden Rindle* — um jogo no estilo *Wordle* focado no universo de **Elden Ring**.  
 Projeto do Terceiro Mini Projeto da disciplina de Programação de Scripts (Fatec Rio Claro). O servidor foi implementado em **Python** com **FastAPI** e expõe endpoints prontos para consumo por um frontend.
 
 ---
@@ -10,8 +10,8 @@ Projeto do Terceiro Mini Projeto da disciplina de Programação de Scripts (Fate
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/nathanscremin/eldendle_api.git
-cd eldendle_api
+git clone https://github.com/nathanscremin/elden-rindle_api.git
+cd elden-rindle_api
 ```
 
 2. **Crie e ative um ambiente virtual (recomendado)**

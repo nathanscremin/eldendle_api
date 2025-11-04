@@ -22,7 +22,7 @@ def get_new_random_boss() -> Boss:
 
 @app.get("/")
 def read_root():
-    return{"Projeto" : "Eldendle API"}
+    return{"Projeto" : "Elden Rindle API"}
 
 @app.get("/api/bosses/names", response_model=List[str])
 def get_all_boss_names():

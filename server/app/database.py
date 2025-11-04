@@ -309,7 +309,7 @@ BOSS_DATABASE = {
         "raca": "Malformed Star",
         "localizacao_especifica": "Grand Cloister",
         "drop_principal": "Remembrance of the Naturalborn",
-        "obrigatorio": False, # Obrigatório para a quest da Ranni
+        "obrigatorio": False, 
         "runes": 80000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astel_naturalborn_of_the_void_boss_elden_ring_wiki_guide_200px.jpg"
     },
