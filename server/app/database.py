@@ -1,7 +1,6 @@
 # Our database of Elden Ring bosses
 # Data gathered from Fextralife wiki
 BOSS_DATABASE = {
-    # --- BASE GAME: SHARDBEARERS (MAIN) ---
     "Godrick the Grafted": {
         "nome": "Godrick the Grafted",
         "regiao": "Limgrave",
@@ -11,7 +10,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Stormveil Castle",
         "drop_principal": "Godrick's Great Rune",
         "obrigatorio": True,
-        "runes": 20000, # <-- ADICIONADO
+        "runes": 20000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godrick_the_grafted_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Rennala, Queen of the Full Moon": {
@@ -23,7 +22,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Raya Lucaria Academy",
         "drop_principal": "Great Rune of the Unborn",
         "obrigatorio": True,
-        "runes": 40000, # <-- ADICIONADO
+        "runes": 40000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rennala_queen_of_the_full_moon_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Starscourge Radahn": {
@@ -35,7 +34,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Wailing Dunes",
         "drop_principal": "Radahn's Great Rune",
         "obrigatorio": True,
-        "runes": 70000, # <-- ADICIONADO (Fonte: Fextralife)
+        "runes": 70000, 
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/starscourge_radahn_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Rykard, Lord of Blasphemy": {
@@ -47,7 +46,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Volcano Manor",
         "drop_principal": "Rykard's Great Rune",
         "obrigatorio": True,
-        "runes": 130000, # <-- ADICIONADO (Fonte: Fextralife)
+        "runes": 130000, 
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rykard_lord_of_blasphemy_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Morgott, the Omen King": {
@@ -59,11 +58,9 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Elden Throne",
         "drop_principal": "Morgott's Great Rune",
         "obrigatorio": True,
-        "runes": 120000, # <-- ADICIONADO
+        "runes": 120000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/morgott_the_omen_king_boss_elden_ring_wiki_guide_200px.jpg"
     },
-
-    # --- BASE GAME: MAIN STORY (ENDGAME) ---
     "Fire Giant": {
         "nome": "Fire Giant",
         "regiao": "Mountaintops of the Giants",
@@ -73,7 +70,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Flame Peak",
         "drop_principal": "Remembrance of the Fire Giant",
         "obrigatorio": True,
-        "runes": 180000, # <-- ADICIONADO
+        "runes": 180000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire_giant_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Maliketh, the Black Blade": {
@@ -85,7 +82,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Beside the Great Bridge",
         "drop_principal": "Remembrance of the Black Blade",
         "obrigatorio": True,
-        "runes": 220000, # <-- ADICIONADO
+        "runes": 220000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh_the_black_blade_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Godfrey, First Elden Lord": {
@@ -97,7 +94,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Elden Throne",
         "drop_principal": "Remembrance of Hoarah Loux",
         "obrigatorio": True,
-        "runes": 300000, # <-- ADICIONADO
+        "runes": 300000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godfrey_first_elden_lord_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Radagon of the Golden Order": {
@@ -109,11 +106,9 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Elden Throne",
         "drop_principal": "Elden Remembrance",
         "obrigatorio": True,
-        "runes": 500000, # <-- ADICIONADO (Drop do Elden Beast)
+        "runes": 500000, 
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radagon_of_the_golden_order_boss_elden_ring_wiki_guide_200px.jpg"
     },
-
-    # --- BASE GAME: MAJOR OPTIONAL ---
     "Malenia, Blade of Miquella": {
         "nome": "Malenia, Blade of Miquella",
         "regiao": "Miquella's Haligtree",
@@ -123,7 +118,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Elphael, Brace of the Haligtree",
         "drop_principal": "Malenia's Great Rune",
         "obrigatorio": False,
-        "runes": 480000, # <-- ADICIONADO
+        "runes": 480000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malenia_blade_of_miquella_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Mohg, Lord of Blood": {
@@ -135,11 +130,9 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Mohgwyn Dynasty Mausoleum",
         "drop_principal": "Mohg's Great Rune",
         "obrigatorio": False,
-        "runes": 420000, # <-- ADICIONADO
+        "runes": 420000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mohg_lord_of_blood_boss_elden_ring_wiki_guide_200px.jpg"
     },
-
-    # --- DLC: SHADOW OF THE ERDTREE (MAIN) ---
     "Divine Beast Dancing Lion": {
         "nome": "Divine Beast Dancing Lion",
         "regiao": "Gravesite Plain",
@@ -149,7 +142,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Belurat, Tower Settlement",
         "drop_principal": "Remembrance of the Dancing Lion",
         "obrigatorio": True,
-        "runes": 120000, # <-- ADICIONADO (Fonte: Fextralife)
+        "runes": 120000, 
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/divine_beast_dancing_lion_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Rellana, Twin Moon Knight": {
@@ -161,7 +154,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Castle Ensis",
         "drop_principal": "Remembrance of the Twin Moon Knight",
         "obrigatorio": True,
-        "runes": 240000, # <-- ADICIONADO
+        "runes": 240000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rellana_twin_moon_knight_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Messmer the Impaler": {
@@ -173,7 +166,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Shadow Keep",
         "drop_principal": "Remembrance of the Impaler",
         "obrigatorio": True,
-        "runes": 400000, # <-- ADICIONADO (Fonte: Fextralife)
+        "runes": 400000, 
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/messmer_the_impaler_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Promised Consort Radahn": {
@@ -185,11 +178,9 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Enir-Ilim",
         "drop_principal": "Remembrance of Radahn, Consort",
         "obrigatorio": True,
-        "runes": 500000, # <-- ADICIONADO
+        "runes": 500000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/promised_consort_radahn_boss_elden_ring_wiki_guide_200px.jpg"
     },
-
-    # --- BASE GAME: MAJOR OPTIONAL (CONTINUAÇÃO) ---
     "Margit, the Fell Omen": {
         "nome": "Margit, the Fell Omen",
         "regiao": "Limgrave",
@@ -199,7 +190,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Stormveil Castle",
         "drop_principal": "Talisman Pouch",
         "obrigatorio": False, 
-        "runes": 12000, # <-- ADICIONADO
+        "runes": 12000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/margit_the_fell_omen_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Godskin Duo": {
@@ -211,7 +202,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Dragon Temple",
         "drop_principal": "Smithing-Stone Miner's Bell Bearing [4]",
         "obrigatorio": True, 
-        "runes": 170000, # <-- ADICIONADO (Fonte: Fextralife)
+        "runes": 170000, 
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godskin_duo_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Lichdragon Fortissax": {
@@ -223,7 +214,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Prince of Death's Throne",
         "drop_principal": "Remembrance of the Lichdragon",
         "obrigatorio": False, 
-        "runes": 90000, # <-- ADICIONADO
+        "runes": 90000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lichdragon_fortissax_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Dragonlord Placidusax": {
@@ -235,11 +226,9 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Beside the Great Bridge",
         "drop_principal": "Remembrance of the Dragonlord",
         "obrigatorio": False,
-        "runes": 280000, # <-- ADICIONADO (Fonte: Fextralife)
+        "runes": 280000, 
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragonlord_placidusax_boss_elden_ring_wiki_guide_200px.jpg"
     },
-
-    # --- DLC: SHADOW OF THE ERDTREE (OUTROS PRINCIPAIS/OPCIONAIS) ---
     "Romina, Saint of the Bud": {
         "nome": "Romina, Saint of the Bud",
         "regiao": "Ancient Ruins of Rauh",
@@ -249,7 +238,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Church of the Bud",
         "drop_principal": "Remembrance of the Saint of the Bud",
         "obrigatorio": True, 
-        "runes": 380000, # <-- ADICIONADO
+        "runes": 380000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/romina_saint_of_the_bud_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Midra, Lord of Frenzied Flame": {
@@ -261,7 +250,7 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Midra's Manse",
         "drop_principal": "Remembrance of the Lord of Frenzied Flame",
         "obrigatorio": False,
-        "runes": 410000, # <-- ADICIONADO
+        "runes": 410000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/midra_lord_of_frenzied_flame_boss_elden_ring_wiki_guide_200px.jpg"
     },
     "Bayle the Dread": {
@@ -273,7 +262,151 @@ BOSS_DATABASE = {
         "localizacao_especifica": "Jagged Peak Summit",
         "drop_principal": "Heart of Bayle",
         "obrigatorio": False,
-        "runes": 490000, # <-- ADICIONADO
+        "runes": 490000,
         "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bayle_the_dread_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Flying Dragon Agheel": {
+        "nome": "Flying Dragon Agheel",
+        "regiao": "Limgrave",
+        "fase": 1,
+        "tipo": "Great Enemy",
+        "raca": "Dragon",
+        "localizacao_especifica": "Agheel Lake",
+        "drop_principal": "Dragon Heart",
+        "obrigatorio": False,
+        "runes": 5000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/flying_dragon_agheel_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Regal Ancestor Spirit": {
+        "nome": "Regal Ancestor Spirit",
+        "regiao": "Siofra River",
+        "fase": 1,
+        "tipo": "Legend",
+        "raca": "Spirit",
+        "localizacao_especifica": "Hallowhorn Grounds",
+        "drop_principal": "Remembrance of the Regal Ancestor",
+        "obrigatorio": False,
+        "runes": 24000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/regal_ancestor_spirit_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Elemer of the Briar": {
+        "nome": "Elemer of the Briar",
+        "regiao": "Altus Plateau",
+        "fase": 1,
+        "tipo": "Great Enemy",
+        "raca": "Humanoid",
+        "localizacao_especifica": "The Shaded Castle",
+        "drop_principal": "Marais Executioner's Sword",
+        "obrigatorio": False,
+        "runes": 24000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elemer_of_the_briar_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Astel, Naturalborn of the Void": {
+        "nome": "Astel, Naturalborn of the Void",
+        "regiao": "Lake of Rot",
+        "fase": 1,
+        "tipo": "Legend",
+        "raca": "Malformed Star",
+        "localizacao_especifica": "Grand Cloister",
+        "drop_principal": "Remembrance of the Naturalborn",
+        "obrigatorio": False, # Obrigatório para a quest da Ranni
+        "runes": 80000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astel_naturalborn_of_the_void_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Putrescent Knight": {
+        "nome": "Putrescent Knight",
+        "regiao": "Southern Shore",
+        "fase": 1,
+        "tipo": "Legend",
+        "raca": "Humanoid",
+        "localizacao_especifica": "Stone Coffin Fissure",
+        "drop_principal": "Remembrance of Putrescence",
+        "obrigatorio": False,
+        "runes": 300000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/putrescent_knight_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Commander Gaius": {
+        "nome": "Commander Gaius",
+        "regiao": "Scadu Altus",
+        "fase": 2,
+        "tipo": "Great Enemy",
+        "raca": "Humanoid",
+        "localizacao_especifica": "Scadu Altus",
+        "drop_principal": "Remembrance of the Wild Boar Rider",
+        "obrigatorio": False,
+        "runes": 300000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/commander_gaius_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Tree Sentinel": {
+        "nome": "Tree Sentinel",
+        "regiao": "Limgrave",
+        "fase": 1,
+        "tipo": "Great Enemy",
+        "raca": "Humanoid",
+        "localizacao_especifica": "The First Step",
+        "drop_principal": "Golden Halberd",
+        "obrigatorio": False,
+        "runes": 3200,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/tree_sentinel_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Red Wolf of Radagon": {
+        "nome": "Red Wolf of Radagon",
+        "regiao": "Liurnia of the Lakes",
+        "fase": 1,
+        "tipo": "Great Enemy",
+        "raca": "Beast",
+        "localizacao_especifica": "Raya Lucaria Academy",
+        "drop_principal": "Memory Stone",
+        "obrigatorio": True, 
+        "runes": 14000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/red_wolf_of_radagon_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Godskin Apostle (Caelid)": {
+        "nome": "Godskin Apostle",
+        "regiao": "Caelid",
+        "fase": 2,
+        "tipo": "Great Enemy",
+        "raca": "Humanoid",
+        "localizacao_especifica": "Divine Tower of Caelid",
+        "drop_principal": "Godskin ApostleSet",
+        "obrigatorio": False,
+        "runes": 94000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godskin_apostle_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Ancient Dragon Lansseax": {
+        "nome": "Ancient Dragon Lansseax",
+        "regiao": "Altus Plateau",
+        "fase": 1,
+        "tipo": "Great Enemy",
+        "raca": "Dragon",
+        "localizacao_especifica": "Altus Plateau",
+        "drop_principal": "Lansseax's Glaive",
+        "obrigatorio": False,
+        "runes": 60000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ancient_dragon_lansseax_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Loretta, Knight of the Haligtree": {
+        "nome": "Loretta, Knight of the Haligtree",
+        "regiao": "Miquella's Haligtree",
+        "fase": 1,
+        "tipo": "Great Enemy",
+        "raca": "Humanoid",
+        "localizacao_especifica": "Miquella's Haligtree",
+        "drop_principal": "Loretta's Mastery",
+        "obrigatorio": True,
+        "runes": 200000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/loretta_knight_of_the_haligtree_boss_elden_ring_wiki_guide_200px.jpg"
+    },
+    "Sir Gideon Ofnir, the All-Knowing": {
+        "nome": "Sir Gideon Ofnir, the All-Knowing",
+        "regiao": "Leyndell, Ashen Capital",
+        "fase": 1,
+        "tipo": "Legend",
+        "raca": "Humanoid",
+        "localizacao_especifica": "Leyndell, Ashen Capital",
+        "drop_principal": "All-Knowing Set",
+        "obrigatorio": True,
+        "runes": 150000,
+        "imagem_url": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sir_gideon_ofnir_the_all-knowing_boss_elden_ring_wiki_guide_200px.jpg"
     },
 }
