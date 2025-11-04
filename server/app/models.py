@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import Literal
 
 # Status de feedback para o jogo
-FeedbackStatus = Literal["correct", "incorrect", "partial"]
+FeedbackStatus = Literal["correct", "incorrect", "partial", "higher", "lower"]
 
 class Boss(BaseModel):
     # Define a estrutura de um Boss.
@@ -15,6 +15,7 @@ class Boss(BaseModel):
     drop_principal: str
     obrigatorio: bool
     imagem_url: str
+    runes: int
     
 class GuessFeedback(BaseModel):
     # Define as respostas de feedback para o cliente.
@@ -26,4 +27,5 @@ class GuessFeedback(BaseModel):
     localizacao_especifica: FeedbackStatus
     drop_principal: FeedbackStatus
     obrigatorio: FeedbackStatus
+    runes: FeedbackStatus
     

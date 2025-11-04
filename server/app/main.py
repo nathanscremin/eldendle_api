@@ -34,18 +34,31 @@ def process_guess(guess_name: str):
         raise HTTPException(status_code=404, detail="Boss não encontrado.")
     
     guess_data = Boss(**BOSS_DATABASE[guess_name])
+    feedback = {}
     
-    feedback = {
-        "nome": "correct" if guess_data.nome == BOSS_DO_DIA_DADOS.nome else "incorrect",
-        "regiao": "correct" if guess_data.regiao == BOSS_DO_DIA_DADOS.regiao else "incorrect",
-        "fase": "correct" if guess_data.fase == BOSS_DO_DIA_DADOS.fase else "incorrect",
-        "tipo": "correct" if guess_data.tipo == BOSS_DO_DIA_DADOS.tipo else "incorrect",
-        "raca": "correct" if guess_data.raca == BOSS_DO_DIA_DADOS.raca else "incorrect",
-        "localizacao_especifica": "correct" if guess_data.localizacao_especifica == BOSS_DO_DIA_DADOS.localizacao_especifica else "incorrect",
-        "drop_principal": "correct" if guess_data.drop_principal == BOSS_DO_DIA_DADOS.drop_principal else "incorrect",
-        "obrigatorio": "correct" if guess_data.obrigatorio == BOSS_DO_DIA_DADOS.obrigatorio else "incorrect",
-    }
+    feedback["nome"] = "correct" if guess_data.nome == BOSS_DO_DIA_DADOS.nome else "incorrect"
+    feedback["regiao"] = "correct" if guess_data.regiao == BOSS_DO_DIA_DADOS.regiao else "incorrect"
+    feedback["tipo"] = "correct" if guess_data.tipo == BOSS_DO_DIA_DADOS.tipo else "incorrect"
+    feedback["raca"] = "correct" if guess_data.raca == BOSS_DO_DIA_DADOS.raca else "incorrect"
+    feedback["localizacao_especifica"] = "correct" if guess_data.localizacao_especifica == BOSS_DO_DIA_DADOS.localizacao_especifica else "incorrect"
+    feedback["drop_principal"] = "correct" if guess_data.drop_principal == BOSS_DO_DIA_DADOS.drop_principal else "incorrect"
+    feedback["obrigatorio"] = "correct" if guess_data.obrigatorio == BOSS_DO_DIA_DADOS.obrigatorio else "incorrect"
     
-    # Adicionar logica "partial" pra algumas coisas,
+    # Lógica "Maior / Menor" para Fases
+    if guess_data.fase == BOSS_DO_DIA_DADOS.fase:
+        feedback["fase"] = "correct"
+    elif guess_data.fase < BOSS_DO_DIA_DADOS.fase:
+        feedback["fase"] = "higher" # Significa que a resposta correta tem MAIS fases
+    else:
+        feedback["fase"] = "lower"  # Significa que a resposta correta tem MENOS fases
+
+    # Lógica "Maior / Menor" para Runas
+    if guess_data.runes == BOSS_DO_DIA_DADOS.runes:
+        feedback["runes"] = "correct"
+    elif guess_data.runes < BOSS_DO_DIA_DADOS.runes:
+        feedback["runes"] = "higher" # Significa que a resposta correta dropa MAIS runas
+    else:
+        feedback["runes"] = "lower"  # Significa que a resposta correta dropa MENOS runas
     
+    # 4. Retorna o feedback para o cliente
     return GuessFeedback(**feedback)
