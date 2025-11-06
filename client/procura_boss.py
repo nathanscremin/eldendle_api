@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://26.48.198.224:8000/'
+url = 'http:/127.0.0.1:8000/'
 try:
     resposta_status = requests.get(url)
     if resposta_status.status_code == 200:
@@ -99,4 +99,5 @@ while True:
         break
     
     else:
+
         print("Opção inválida. Por favor, digite '1', '2' ou 'S'.")
