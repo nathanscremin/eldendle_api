@@ -192,14 +192,6 @@ Base URL (padrão durante desenvolvimento): `http://127.0.0.1:8000`
 
 ---
 
-## 💡 Sugestões / Próximos Passos
-
-* Adicionar um frontend web (React/Vue) que consuma a API e ofereça interface gráfica.
-* Persistência real (SQLite/Postgres) para gravar estatísticas de jogadores e histórico de jogos.
-* Autenticação de usuários para sessões persistentes.
-
----
-
 ## 🧾 Licença & Créditos
 
 Projeto desenvolvido como entrega acadêmica para a disciplina de Programação de Scripts da Fatec Rio Claro.
